@@ -1,0 +1,9 @@
+$color--orange: orange;
+
+body {
+  h1 {
+    color: $color--orange;
+    font-size: 40px;
+    display: flex;
+  }
+}
