@@ -288,7 +288,27 @@
 <br/>
 
 ## 09. Netlify 배포
-
+- <a href="https://app.netlify.com/teams/wholesome-gee/sites">https://app.netlify.com/teams/wholesome-gee/sites</a>
+- `Add new site`
+- `Import an existing project`
+- `Github`
+- 배포 할 repository 선택
+- Site name 작성
+- Build command에 `CI= npm run build` 입력
+- Publish directory에 `dist/` 입력
 <br/>
 
-## 10. 프로젝트 생성
+## 10. NPX, Degit
+- 버전관리 없이 저장소파일을 불러오기(버전초기화 상태)
+- 터미널 경로를 Desktop으로 설정
+  - 이전 경로 가기 = `cd ../`
+  - 다음 경로 가기 = `cd 폴더명`
+- npx degit github유저명/repository이름 생성폴더명
+  - `npx degit wholesome-gee/webpack-template-basic webpack-test`
+  - wholesome-gee의 webpack-template-basic저장소 내용이 webpack-test폴더에 담김
+- cd 생성폴더명
+  - `cd webpack-test`
+  - webpack-test로 경로 설정
+- `cd . -r`  
+
+
