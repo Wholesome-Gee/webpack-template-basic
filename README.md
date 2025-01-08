@@ -309,6 +309,6 @@
 - cd 생성폴더명
   - `cd webpack-test`
   - webpack-test로 경로 설정
-- `cd . -r`  
+- `code . -r`  
 
 
